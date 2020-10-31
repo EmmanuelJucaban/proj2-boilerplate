@@ -9,6 +9,5 @@ import {
 // the value will be the reducer in charge of handling the state for that root name
 export default combineReducers({
   form: formReducer,
-  user: userReducer,
   viewer: viewerReducer,
 });
